@@ -1,5 +1,8 @@
 package com.springBoot.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface SiRepo {
+import com.springBoot.entities.SignUp;
+public interface SiRepo  extends JpaRepository<SignUp,Long>
+{
 
 }
