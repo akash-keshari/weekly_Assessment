@@ -1,5 +1,8 @@
 package com.springBoot.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AdminRepo {
+import com.springBoot.entities.Admin;
+public interface AdminRepo JpaRepository<Admin,Long>
+{
 
 }
